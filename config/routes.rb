@@ -1,4 +1,7 @@
 Calculator::Application.routes.draw do
+  resources :kunals
+
+
   get "welcome/index"
 
 
